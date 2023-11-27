@@ -280,6 +280,7 @@ body.nav-active { overflow: hidden; }
 .header.active {
   background-color: var(--white);
   position: fixed;
+  height: 105px;
   animation: slideIn 0.5s ease forwards;
 }
 
@@ -299,7 +300,7 @@ body.nav-active { overflow: hidden; }
 .header .logo-dark { display: none; }
 
 .header .logo-light,
-.header.active .logo-dark { display: block; height: 0px; padding-bottom: 50px; }
+.header.active .logo-dark { display: block; height: 0px;  }
 
 .nav-open-btn {
   font-size: 3.5rem;
